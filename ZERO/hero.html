@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>口袋AI - 将世界知识装进口袋</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* 浅蓝色背景 */
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #007BFF; /* 蓝色导航栏 */
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Hero区域样式 */
+        .hero {
+            background-color: #007BFF; /* 蓝色背景 */
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .hero button {
+            background-color: white;
+            color: #007BFF;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* 特性展示区域样式 */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+        }
+
+        .feature {
+            text-align: center;
+            width: 200px;
+        }
+
+        .feature i {
+            font-size: 40px;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+        /* 开发者和社区信息区域样式 */
+        .developer-community {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+        }
+
+        .developer, .community {
+            text-align: center;
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .developer h3, .community h3 {
+            color: #007BFF;
+        }
+
+        .developer p, .community p {
+            color: #333;
+        }
+
+        .developer a, .community a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .developer a:hover, .community a:hover {
+            text-decoration: underline;
+        }
+
+        /* 版本信息展示区域样式 */
+        .version-info {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f0f8ff;
+        }
+
+        /* 下载引导区域样式 */
+        .download-cta {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .download-cta h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .download-cta button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* 页脚样式 */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div>
+            <h1>口袋AI</h1>
+        </div>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">功能</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero区域 -->
+    <div class="hero">
+        <h1>将世界知识装进口袋</h1>
+        <p>口袋AI，随时随地为您提供丰富的知识和智能服务。</p>
+        <button>立即体验</button>
+    </div>
+
+    <!-- 特性展示区域 -->
+    <div class="features">
+        <div class="feature">
+            <i class="fas fa-comments"></i>
+            <h3>基于中文模型优化的中文对话体验</h3>
+            <p>我们的模型针对中文进行了优化，提供更自然、流畅的对话体验。</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-user-friends"></i>
+            <h3>针对中文用户优化的交互界面</h3>
+            <p>交互界面设计符合中文用户的使用习惯，操作更便捷。</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-wifi"></i>
+            <h3>智能网络错误处理与重试机制</h3>
+            <p>遇到网络问题时，自动处理错误并尝试重新连接，确保服务的稳定性。</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-cogs"></i>
+            <h3>更适合中国用户的功能定制</h3>
+            <p>根据中国用户的需求和习惯，定制了一系列实用的功能。</p>
+        </div>
+    </div>
+
+    <!-- 开发者和社区信息区域 -->
+    <div class="developer-community">
+        <div class="developer">
+            <h3>开发者</h3>
+            <p>云中江树</p>
+        </div>
+        <div class="community">
+            <h3>LangGPT提示词社区</h3>
+            <p>加入我们的社区，获取更多提示词和资源。</p>
+            <a href="https://langgpt.cn/" target="_blank">点击进入社区</a>
+        </div>
+        <div class="developer">
+            <h3>联系方式</h3>
+            <p>微信：[微信号]<br>GitHub：[GitHub链接]<br>邮箱：[邮箱地址]</p>
+        </div>
+    </div>
+
+    <!-- 版本信息展示区域 -->
+    <div class="version-info">
+        <p>版本：1.0</p>
+    </div>
+
+    <!-- 下载引导区域 -->
+    <div class="download-cta">
+        <h2>立即下载口袋AI</h2>
+        <button>下载</button>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2023 口袋AI. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
