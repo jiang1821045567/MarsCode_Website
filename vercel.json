@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "build",
   "routes": [
     { "src": "/", "dest": "/index.html" },
     { "src": "/ZERO/(.*)", "dest": "/ZERO/$1" }
