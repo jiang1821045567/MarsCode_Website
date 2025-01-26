@@ -3,5 +3,5 @@
     { "src": "/", "dest": "/index.html" },
     { "src": "/ZERO/(.*)", "dest": "/ZERO/$1" }
   ],
-  "output": "public"
+  "output": "pages"
 }
